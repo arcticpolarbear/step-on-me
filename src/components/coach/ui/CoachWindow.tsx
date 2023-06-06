@@ -1,8 +1,9 @@
 import { dancePattern } from "../../../datatypes/datatypes";
 import BeatSelector from "./BeatSelector"
 
+
 let tempPattern: dancePattern = {
-    beats: 4,
+    beats: 9,
     steps: ['a'],
     signature: 4
 }

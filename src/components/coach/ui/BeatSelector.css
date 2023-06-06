@@ -1,0 +1,15 @@
+.beat-selector {
+  display: flex;
+}
+
+.beat-division {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+.first-beat {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
