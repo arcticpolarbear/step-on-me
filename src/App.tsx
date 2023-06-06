@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import CoachWindow from './components/coach/ui/CoachWindow';
+import CoachInterface from './components/coach/ui/CoachInterface';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
         <p>
           Welcome to StepOnMe.com your virtual swing and ballroom dancing coach!
         </p>
-        <CoachWindow></CoachWindow>
+        <CoachInterface></CoachInterface>
       </header>
     </div>
   );
