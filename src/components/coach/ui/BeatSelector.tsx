@@ -4,7 +4,7 @@ import './BeatSelector.css'
 
 //BeatSelector allows users to view steps on a selected beat.
 const BeatSelector:React.FC<BeatSelectorProps> = ({pattern, displayBeat}) => {
-    //might want to remove this check after a check is implemented in "updatePattern()"
+    //might want to remove this check after a check is implemented in a future "updatePattern()"
     if (!pattern.beats || !pattern.steps || !pattern.signature) {
         // handleError('BeatSelector did not receive a valid dance pattern!');
         return(<p>'No valid dance pattern!'</p>);
