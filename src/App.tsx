@@ -1,23 +1,16 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import CoachWindow from './components/coach/ui/CoachWindow';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Welcome to StepOnMe.com your virtual swing and ballroom dancing coach!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <CoachWindow></CoachWindow>
       </header>
     </div>
   );
