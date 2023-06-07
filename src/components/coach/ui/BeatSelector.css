@@ -5,12 +5,18 @@
 .beat-division {
   flex: 1;
   background-color: #f2f2f2;
-  padding: 10px;
+  border: none;
+  outline: none;
 }
 
 .first-beat {
   flex: 1;
   color: white;
   background-color: black;
-  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+.selected-beat {
+  background-color: red;
 }
