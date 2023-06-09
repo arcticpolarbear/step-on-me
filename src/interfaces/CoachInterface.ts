@@ -5,6 +5,16 @@ export interface BeatSelectorProps {
         signature: number
 
     };
-    //"void type may need to be changed"
-    displayBeat: (key: number) => void;
+    selectBeat: (key: number) => void;
+}
+
+export interface StepDisplayProps {
+    // pattern: {
+    //     beats: number;
+    //     steps: string[];
+    //     signature: number
+
+    // };
+    currentBeat: number;
+    selectBeat: (key: number) => void;
 }
