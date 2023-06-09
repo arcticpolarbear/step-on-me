@@ -1,22 +1,22 @@
-.beat-selector {
+.selector-bar {
   display: flex;
 }
 
-.beat-division {
+.beat {
   flex: 1;
   background-color: #f2f2f2;
   border: none;
   outline: none;
 }
 
-.first-beat {
-  flex: 1;
-  color: white;
-  background-color: black;
-  border: none;
-  outline: none;
+.beat.first {
+  background-color: grey;
 }
 
-.selected-beat {
+.beat.selected {
   background-color: red;
+}
+
+.beat:hover {
+  background-color: yellow;
 }
