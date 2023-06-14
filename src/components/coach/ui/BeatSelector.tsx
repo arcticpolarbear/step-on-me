@@ -1,5 +1,5 @@
 import React,{ useState } from 'react'
-import { BeatSelectorProps } from '../../../interfaces/coach';
+import { BeatSelectorProps } from '../../../interfaces/coach-interfaces';
 import './styles/BeatSelector.css'
 
 //BeatSelector allows users to select the step to be displayed on StepDisplay.
