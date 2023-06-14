@@ -19,3 +19,8 @@ export interface StepDisplayProps {
     currentBeat: number;
     selectBeat: (key: number) => void;
 }
+
+export interface PlacementGridProps {
+    width: number;
+    height: number
+}
