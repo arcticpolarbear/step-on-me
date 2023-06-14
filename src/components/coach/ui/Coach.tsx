@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { BeatSelectorProps } from "../../../interfaces/coach-interfaces";
 import PlacementGrid from "./PlacementGrid";
 import BeatSelector from "./BeatSelector"
 import StepDisplay from "./StepDisplay"
@@ -14,14 +13,18 @@ function Coach() {
 
     //displays steps for current selected beat
     const [currentBeat, setCurrentBeat] = useState(0);
-
-    //set size of PlacementGrid component
-    const[canvasSize, setCanvasSize] = useState({width: 400, height: 300})
-
-
     const selectBeat = (key: number) => {
         setCurrentBeat(key)
     };
+
+    //set size of PlacementGrid component
+    const[canvasSize, setCanvasSize] = useState({width: 400, height: 300})
+    const handleResize:() => void = () => {
+        //needs to be updated to account for windowsize
+        setCanvasSize({width: 400, height: 300})
+    }
+
+    //window.addEventListener('resize', handleResize)
 
     return(
         <div>
