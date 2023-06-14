@@ -1,7 +1,7 @@
 export interface DancePattern {
     beats: number;
     signature: number;
-    steps: string[];
+    steps: {};
 }
 
 export interface BeatSelectorProps {
