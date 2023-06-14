@@ -1,5 +1,5 @@
 import React,{ useState } from 'react'
-import { StepDisplayProps } from '../../../interfaces/CoachInterface';
+import { StepDisplayProps } from '../../../interfaces/coach';
 import './styles/StepDisplay.css'
 
 //StepDisplay displays current step selected by BeatSelector

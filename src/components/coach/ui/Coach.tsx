@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BeatSelectorProps } from "../../../interfaces/CoachInterface";
+import { BeatSelectorProps } from "../../../interfaces/coach";
 import BeatSelector from "./BeatSelector"
 import StepDisplay from "./StepDisplay"
 
