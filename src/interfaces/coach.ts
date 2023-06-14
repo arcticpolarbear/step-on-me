@@ -1,10 +1,11 @@
-export interface BeatSelectorProps {
-    pattern: {
-        beats: number;
-        steps: string[];
-        signature: number
+export interface DancePattern {
+    beats: number;
+    signature: number;
+    steps: string[];
+}
 
-    };
+export interface BeatSelectorProps {
+    pattern: DancePattern
     selectBeat: (key: number) => void;
 }
 
