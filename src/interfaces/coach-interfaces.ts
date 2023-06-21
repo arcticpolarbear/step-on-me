@@ -24,3 +24,9 @@ export interface PlacementGridProps {
     width: number;
     height: number
 }
+
+export interface FootLocation {
+    x: number,
+    y: number,
+    orientation: number
+}
